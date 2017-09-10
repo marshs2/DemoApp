@@ -19,7 +19,7 @@ body{
 
 /*Stephen*/
 .main{
-
+    padding-top: 150px;
 }
 
 .outline {
@@ -45,7 +45,7 @@ body{
 
 /*Santhosh*/
 .login_button{
-	margin-right: 20px;
+	margin: 20px 20px 0 0;
 }
 
 .login_button .login-circle{
