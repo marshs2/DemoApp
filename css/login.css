@@ -43,9 +43,13 @@ body{
     margin-top: 12px;
 }
 
+.username, .password{
+	border-radius: 50px;
+}
+
 /*Santhosh*/
 .login_button{
-	margin: 20px 20px 0 0;
+	margin: 20px 20px 0 30px;
 }
 
 .login_button .login-circle{
