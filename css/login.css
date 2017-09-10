@@ -1,8 +1,11 @@
+
 body{
 	/*Santhosh*/
 
 	/*Stephen*/
+    background-color: #f3f3ee;
 }
+
 
 /*Santhosh*/
 .header{
@@ -12,6 +15,27 @@ body{
 /*Stephen*/
 .main{
 
+}
+
+.outline {
+    width: 479px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+.outline-header {
+    background-color: #999;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password {
+    margin-top: 12px;
 }
 
 /*Santhosh*/
