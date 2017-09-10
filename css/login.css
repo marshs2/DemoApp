@@ -73,6 +73,12 @@ body{
 
 }
 
+.login_button{
+	position: relative;
+	left: 58%;
+	width: 110px;
+}
+
 @media(max-width: 1023px){
 	.header{
 		text-align: center;
@@ -83,7 +89,15 @@ body{
 
 	.login_button{
 		position: relative;
-		left: 50%;
+		left: 35%;
 		max-width: 110px;
+	}
+	.outline {
+		width: 98%;
+		height: 250px;
+		background-color: #ccc;
+		border-radius: 15px;
+		padding: 2%;
+		margin: 0 2% 0 2%;
 	}
 }
