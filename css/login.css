@@ -6,6 +6,11 @@ body{
 
 /*Santhosh*/
 .header{
+	background-color: #a9e68f;
+	padding: 15px 20px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #c88817;
 
 }
 
@@ -16,5 +21,26 @@ body{
 
 /*Santhosh*/
 .login_button{
+	margin-right: 20px;
+}
+
+.login_button .login-circle{
+	border: 5px solid #c88817;
+	padding: 15px;
+	border-radius: 50px;
+}
+
+.login_button .login-circle .triangle{
+	width: 0; 
+  height: 0; 
+  border-top:20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+
+.login_button .login-circle .triangle:hover{
+	margin-left: 18px;
 
 }
