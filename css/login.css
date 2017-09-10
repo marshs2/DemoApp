@@ -72,3 +72,18 @@ body{
 	margin-left: 18px;
 
 }
+
+@media(max-width: 1023px){
+	.header{
+		text-align: center;
+	}
+	.header .title{
+		font-size: 20px;
+	}
+
+	.login_button{
+		position: relative;
+		left: 50%;
+		max-width: 110px;
+	}
+}
