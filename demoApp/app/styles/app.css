@@ -1,0 +1,103 @@
+
+body{
+	/*Santhosh*/
+
+	/*Stephen*/
+    background-color: #f3f3ee;
+}
+
+
+/*Santhosh*/
+.header{
+	background-color: #a9e68f;
+	padding: 15px 20px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #c88817;
+
+}
+
+/*Stephen*/
+.main{
+    padding-top: 150px;
+}
+
+.outline {
+    width: 479px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+.outline-header {
+    background-color: #999;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password {
+    margin-top: 12px;
+}
+
+.username, .password{
+	border-radius: 50px;
+}
+
+/*Santhosh*/
+.login_button{
+	margin: 20px 20px 0 30px;
+}
+
+.login_button .login-circle{
+	border: 5px solid #c88817;
+	padding: 15px;
+	border-radius: 50px;
+}
+
+.login_button .login-circle .triangle{
+	width: 0; 
+  height: 0; 
+  border-top:20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+
+.login_button .login-circle .triangle:hover{
+	margin-left: 18px;
+
+}
+
+.login_button{
+	position: relative;
+	left: 58%;
+	width: 78px;
+}
+
+@media(max-width: 1023px){
+	.header{
+		text-align: center;
+	}
+	.header .title{
+		font-size: 20px;
+	}
+
+	.login_button{
+		position: relative;
+		left: 35%;
+		max-width: 78px;
+	}
+	.outline {
+		width: 98%;
+		height: 250px;
+		background-color: #ccc;
+		border-radius: 15px;
+		padding: 2%;
+		margin: 0 2% 0 2%;
+	}
+}
